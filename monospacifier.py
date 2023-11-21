@@ -38,7 +38,7 @@ import sys
 
 try:
     import fontforge
-    import psMat
+    from fontforge import *
 except ImportError:
     print("This program requires FontForge's python bindings:")
     print("  git clone https://github.com/fontforge/fontforge")
